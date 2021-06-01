@@ -17,36 +17,66 @@ main{
     padding: 5rem;
     font-family: sans-serif;
     font-weight: bold;
-    
 }
 
-
-
 .wrapper{
+    
     position: relative;
     width: 100%;
     height: 100%;
     overflow: hidden;
-    
 }
 
 .wrapper video{
     position: absolute;
-    top: -5%;
+    top: -8%;
     left: 0%;
     width: 100%;
     height: 170%;
+    border-radius: 1.5rem;
 }
+
 .wrapper h1{
-    width: 100%;
+
+    max-width: 100%;
     height: 100%; 
     margin: 0;
     background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
     text-align: center;
     mix-blend-mode: screen;
     text-transform: uppercase;
-    font-size: 40rem;
+    font-size: 45rem;
     font-weight: 800;
-    border-radius: 1.5rem;
     
+}
+
+/* media queries */
+@media screen and (max-width: 1450px) {
+    html{
+        font-size: 45%;
+    }
+    .wrapper h1{
+        font-size: 40rem;
+    }
+}
+@media screen and (max-width: 950px) {
+    html{
+        font-size: 45%;
+    }
+    .wrapper h1{
+        font-size: 20rem;
+    }
+}
+@media screen and (max-width: 450px){
+
+    html{
+        font-size: 45%;
+    }
+    .wrapper h1{
+        font-size: 11rem;
+        max-width: 100%;
+        height: 100%; 
+    }
 }
