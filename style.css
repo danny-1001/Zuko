@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
 
-
-
 html{
     font-size: 62.5%;
 }
@@ -15,7 +13,7 @@ body{
 main{
     margin: 5rem;
     padding: 5rem;
-    font-family: sans-serif;
+    font-family: fantasy;
     font-weight: bold;
 }
 
@@ -37,7 +35,6 @@ main{
 }
 
 .wrapper h1{
-
     max-width: 100%;
     height: 100%; 
     margin: 0;
@@ -49,7 +46,6 @@ main{
     text-transform: uppercase;
     font-size: 45rem;
     font-weight: 800;
-    
 }
 
 /* media queries */
@@ -80,3 +76,4 @@ main{
         height: 100%; 
     }
 }
+
